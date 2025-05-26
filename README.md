@@ -1,9 +1,10 @@
 # From single-cell modeling to large-scale network dynamics with NEST Simulator 
 
-An on-site workshop at the 33rd Annual Computational Neuroscience Meeting, CNS*2024, Natal, Brazil
+An on-site workshop at the 34rd Annual Computational Neuroscience Meeting (CNS*2025), July 5-9th, Florence, Italy
 
 Previous editions:
 
+- An on-site workshop at the 33nd Annual Computational Neuroscience Meeting, July 20-24th, 2024 in Natal, Brazil
 - An on-site workshop at the 32nd Annual Computational Neuroscience Meeting, July 15th, 2023 in Leipzig, Germany
 - An on-site workshop at the Human Brain Project Summit 2023, on Monday, 27th of March in Marseille, France.
 - An online and on-site tutorial at the 31st Annual Computational Neuroscience Meeting, July 1st and July 16th, 2022

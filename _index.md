@@ -19,7 +19,7 @@ title: "From single-cell modeling to large-scale network dynamics with NEST Simu
 <script src="moment.js"></script>
 <script src="moment-timezone-with-data.js"></script>
 
-<p style="margin-top: -1em; text-align: center; font-style: italic !important">An on-site tutorial at the [33nd Annual Computational Neuroscience Meeting (CNS*2024)](https://www.cnsorg.org/cns-2024)<br>July 20-24th, 2024</p>
+<p style="margin-top: -1em; text-align: center; font-style: italic !important">An on-site tutorial at the [34th Annual Computational Neuroscience Meeting (CNS*2025)](https://www.cnsorg.org/cns-2025)<br>July 5-9th, 2025</p>
 
 ## Description
 
@@ -64,7 +64,7 @@ Frontiers in Computational Neuroscience, 4:141. DOI:
 <script>
 var default_tz = 'America/Fortaleza';
 
-var start_time = moment.tz("2024-07-20 09:00", "America/Fortaleza"); // !!! also update start time in the <noscript> table in plain HTML
+var start_time = moment.tz("2025-07-05 09:00", "Europe/Rome"); // !!! also update start time in the <noscript> table in plain HTML
 
 s = "<label for=\"tz-selector\">Timezone:&nbsp;</label>";
 s += "<select class=\"select-css\" name=\"tz-selector\" id=\"tz-selector\" onChange=\"printTable(document.getElementById('schedule'), document.getElementById('tz-selector').value);\">";
@@ -106,21 +106,21 @@ window.addEventListener('load', (event) => {
 
 </script>
 
-The tutorial will start on <span id="start_date_time">Saturday, July 20th, 09:00</span>. <!-- !!! also update start time in the JavaScript code, and in the <noscript> table in plain HTML -->
+The tutorial will start on <span id="start_date_time">Saturday, July 5th, 09:00</span>. <!-- !!! also update start time in the JavaScript code, and in the <noscript> table in plain HTML -->
 
 <div id="schedule" name="schedule">
 <table>
 <tr>
-<th>Time <noscript>(Natal<br>timezone)</noscript></th>
+<th>Time <noscript>(Florence<br>timezone)</noscript></th>
 <th>Description</th>
 </tr>
 <tr>
 <td class="timecell"><noscript>09:00</noscript></td>
-<td>Overview and introduction to NEST Simulator<br><span style="font-style:italic">Joshua Boettcher, Jasper Albers</span></td>
+<td>Overview and introduction to NEST Simulator<br><span style="font-style:italic">Agnes Korcsak-Gorzo</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>09:20</noscript></td>
-<td>Pattern generation and classification using eligibility propagation (e-prop)<br><span style="font-style:italic">Joshua Boettcher, Jasper Albers</span></td>
+<td>Pattern generation and classification using eligibility propagation (e-prop)<br><span style="font-style:italic">Agnes Korcsak-Gorzo</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>10:10</noscript></td>
@@ -128,7 +128,7 @@ The tutorial will start on <span id="start_date_time">Saturday, July 20th, 09:00
 </tr>
 <tr>
 <td class="timecell"><noscript>10:40</noscript></td>
-<td>Creating neuron-astrocyte networks<br><span style="font-style:italic">Iiro Ahokainen</span></td>
+<td>Creating neuron-astrocyte networks<br><span style="font-style:italic">Saana Seppälä</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>12:10</noscript></td>
@@ -136,7 +136,7 @@ The tutorial will start on <span id="start_date_time">Saturday, July 20th, 09:00
 </tr>
 <tr>
 <td class="timecell"><noscript>14:00</noscript></td>
-<td>Sequence learning with third-factor plasticity in NESTML<br><span style="font-style:italic">Jasper Albers</span></td>
+<td>Sequence learning with third-factor plasticity in NESTML<br><span style="font-style:italic">Leander Ewert</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>15:30</noscript></td>
@@ -144,7 +144,7 @@ The tutorial will start on <span id="start_date_time">Saturday, July 20th, 09:00
 </tr>
 <tr>
 <td class="timecell"><noscript>16:00</noscript></td>
-<td>Compartmental models<br><span style="font-style:italic">Joshua Boettcher</span></td>
+<td>Compartmental models<br><span style="font-style:italic">Leander Ewert</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>17:15</noscript></td>
@@ -238,7 +238,7 @@ If you participated in (any part) of this tutorial, we value your feedback! Plea
 
 This tutorial is organised by (in alphabetical order):
 
-Iiro Ahokainen (Tampere University, Finland), Jasper Albers (Jülich Research Centre, Germany), Pooja Babu (Jülich Research Centre, Germany), Joshua Boettcher (Jülich Research Centre, Germany), Jens Bruchertseifer (Trier University, Germany), Leander Ewert (Jülich Research Centre, Germany), Charl Linssen (Jülich Research Centre, Germany), and Willem Wybo (Jülich Research Centre, Germany)
+Agnes Korcsak-Gorzo (Jülich Research Centre, Germany), Iiro Ahokainen (Tampere University, Finland), Pooja Babu (Jülich Research Centre, Germany), Leander Ewert (Jülich Research Centre, Germany), Charl Linssen (Jülich Research Centre, Germany), Saana Seppälä (TAU, Finland), Sebastian Spreizer (Jülich Research Centre, Germany) and Willem Wybo (Jülich Research Centre, Germany)
 
 For general inquiries, please contact Charl at <a href="mailto:c.linssen@fz-juelich.de">c.linssen@fz-juelich.de</a>.
 
