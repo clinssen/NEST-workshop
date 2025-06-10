@@ -80,3 +80,9 @@ header {
 	box-shadow: 3px 3px 3px #ccc;
 	clear: both;
 }
+
+.footer_img {
+     border: 0 !important;
+     -webkit-box-shadow: 0 !important;
+     box-shadow: 0 0 0 #ffff00 !important
+}

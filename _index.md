@@ -62,7 +62,7 @@ Frontiers in Computational Neuroscience, 4:141. DOI:
 ## Schedule (on-site tutorial)
 
 <script>
-var default_tz = 'America/Fortaleza';
+var default_tz = 'Europe/Rome';
 
 var start_time = moment.tz("2025-07-05 09:00", "Europe/Rome"); // !!! also update start time in the <noscript> table in plain HTML
 
@@ -247,12 +247,15 @@ For general inquiries, please contact Charl at <a href="mailto:c.linssen@fz-juel
 
 We gratefully acknowledge the use of [Fenix Infrastructure](https://fenix-ri.eu) resources as part of the Human Brain Project, funded from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under Specific Grant Agreements No. 720270, No. 785907 and No. 945539 (Human Brain Project SGA1, SGA2 and SGA3), as well as the resources, expertise and support of the [Jülich Supercomputing Centre (JSC)](https://www.fz-juelich.de/en/ias/jsc) at [Jülich Research Centre, Jülich, Germany](https://fz-juelich.de).
 
+EBRAINS 2.0 has received funding from the European Union's Research and Innovation Program Horizon Europe under Grant Agreement No. 101147319.
 </section>
 </div>
 
 <!-- FOOTER  -->
 <div id="footer_wrap" class="outer">
 <footer class="inner">
+
+<p style="text-align: center; vertical-align: middle"><a href="https://www.ebrains.eu/" target="_blank"><img src="img/ebrains_logo.png" style="width: 400px" class="footer_img"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/co-funded-eu.png" class="footer_img" style="width: 150px"></p>
 
 <p class="copyright" style="color: #cccccc">Slate theme maintained by <a href="https://github.com/pages-themes">pages-themes</a> &bullet; Published with <a href="https://pages.github.com">GitHub Pages</a> &bullet; Timezone magic thanks to <a href="https://momentjs.com/">moment.js</a></p>
 </footer>
