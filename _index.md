@@ -231,7 +231,7 @@ You can also run the software on a local computer. We suggest using two Docker i
 
 ## Feedback
 
-If you participated in (any part) of this tutorial, we value your feedback! Please take a moment to fill in our short feedback form at [https://forms.gle/yv9MwmAKJugTs2mR9](https://forms.gle/yv9MwmAKJugTs2mR9).
+If you participated in (any part) of this tutorial, we value your feedback! Please take a moment to fill in our short feedback form at [https://www.surveymonkey.com/r/MBMWN26](https://www.surveymonkey.com/r/MBMWN26).
 
 
 ## Organisation
