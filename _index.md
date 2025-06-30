@@ -46,14 +46,9 @@ The tutorial consists of four independent parts.
 
 [2] [https://nest-desktop.readthedocs.org/](https://nest-desktop.readthedocs.org/)
 
-[3] Diaz-Pier S, Naveau M, Butz-Ostendorf M, Morrison A (2016). Automatic
-Generation of Connectivity for Large-Scale Neuronal Network Models through
-Structural Plasticity. Frontiers in Neuroanatomy, Vol. 10.
-<a href="https://doi.org/10.3389/fnana.2016.00057">https://doi.org/10.3389/fnana.2016.00057</a>
+[3] [https://nestml.readthedocs.org/](https://nestml.readthedocs.org/)
 
-[4] [https://nestml.readthedocs.org/](https://nestml.readthedocs.org/)
-
-[5] Potjans W, Morrison A, Diesmann M (2010). Enabling functional neural circuit
+[4] Potjans W, Morrison A, Diesmann M (2010). Enabling functional neural circuit
 simulations with distributed computing of neuromodulated plasticity.
 Frontiers in Computational Neuroscience, 4:141. DOI:
 <a href="https://doi.org/10.3389/fncom.2010.00141">https://doi.org/10.3389/fncom.2010.00141</a>
@@ -119,8 +114,12 @@ The tutorial will start on <span id="start_date_time">Saturday, July 5th, 09:00<
 <td>Overview and introduction to NEST Simulator<br><span style="font-style:italic">Agnes Korcsak-Gorzo</span></td>
 </tr>
 <tr>
-<td class="timecell"><noscript>09:20</noscript></td>
+<td class="timecell"><noscript>09:10</noscript></td>
 <td>Pattern generation and classification using eligibility propagation (e-prop)<br><span style="font-style:italic">Agnes Korcsak-Gorzo</span></td>
+</tr>
+<tr>
+<td class="timecell"><noscript>09:40</noscript></td>
+<td>Sequence learning with third-factor plasticity in NESTML<br><span style="font-style:italic">Leander Ewert</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>10:10</noscript></td>
@@ -128,27 +127,15 @@ The tutorial will start on <span id="start_date_time">Saturday, July 5th, 09:00<
 </tr>
 <tr>
 <td class="timecell"><noscript>10:40</noscript></td>
+<td>Simulating compartmental models using NEST and NESTML<br><span style="font-style:italic">Leander Ewert</span></td>
+</tr>
+<tr>
+<td class="timecell"><noscript>11:25</noscript></td>
 <td>Creating neuron-astrocyte networks<br><span style="font-style:italic">Saana Seppälä</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>12:10</noscript></td>
 <td>Lunch break</td>
-</tr>
-<tr>
-<td class="timecell"><noscript>14:00</noscript></td>
-<td>Sequence learning with third-factor plasticity in NESTML<br><span style="font-style:italic">Leander Ewert</span></td>
-</tr>
-<tr>
-<td class="timecell"><noscript>15:30</noscript></td>
-<td>Coffee break</td>
-</tr>
-<tr>
-<td class="timecell"><noscript>16:00</noscript></td>
-<td>Compartmental models<br><span style="font-style:italic">Leander Ewert</span></td>
-</tr>
-<tr>
-<td class="timecell"><noscript>17:15</noscript></td>
-<td>Closing</td>
 </tr>
 </table>
 </div>
@@ -160,31 +147,31 @@ Course materials (presentations and notebooks) are available in our repository.
 
 For presentations:
 
-[https://github.com/clinssen/OCNS-2024-NEST-workshop/tree/master/presentations](https://github.com/clinssen/OCNS-2024-NEST-workshop/tree/master/presentations)
+[https://github.com/clinssen/NEST-workshop/tree/master/presentations](https://github.com/clinssen/NEST-workshop/tree/master/presentations)
 
 For the tutorial notebooks:
 
-[https://github.com/clinssen/OCNS-2024-NEST-workshop/tree/master/materials](https://github.com/clinssen/OCNS-2024-NEST-workshop/tree/master/materials)
+[https://github.com/clinssen/NEST-workshop/tree/master/materials](https://github.com/clinssen/NEST-workshop/tree/master/materials)
 
 
 ## Links
 
-<div style="text-align:center">[<img src="https://raw.githubusercontent.com/clinssen/OCNS-2024-NEST-workshop/master/img/nest_logo.png" border="0">](https://nest-simulator.readthedocs.io/)<br>[<span style="font-size:120%; font-weight: 120%">NEST Simulator</span>](https://nest-simulator.readthedocs.io/)</div>
+<div style="text-align:center">[<img src="https://raw.githubusercontent.com/clinssen/NEST-workshop/master/img/nest_logo.png" border="0">](https://nest-simulator.readthedocs.io/)<br>[<span style="font-size:120%; font-weight: 120%">NEST Simulator</span>](https://nest-simulator.readthedocs.io/)</div>
 
 <p>NEST Simulator is a spiking neuron simulator which specialises in point neurons and neurons with few comparments. It can simulate synaptic plasticity, structural plasticity, gap junctions and countless other features on machines ranging from home PCs to high-performance computing systems.</p>
 
-<div style="text-align:center">[<img src="https://raw.githubusercontent.com/clinssen/OCNS-2024-NEST-workshop/master/img/nest-desktop-logo.png" border="0" width="240" height="222">](https://nest-desktop.readthedocs.io/)<br>[<span style="font-size:120%; font-weight: 120%">NEST Desktop</span>](https://nest-desktop.readthedocs.io/)</div>
+<div style="text-align:center">[<img src="https://raw.githubusercontent.com/clinssen/NEST-workshop/master/img/nest-desktop-logo.png" border="0" width="240" height="222">](https://nest-desktop.readthedocs.io/)<br>[<span style="font-size:120%; font-weight: 120%">NEST Desktop</span>](https://nest-desktop.readthedocs.io/)</div>
 
 <p>NEST Desktop is a web-based GUI application for NEST Simulator. It enables the rapid construction, parametrization, and instrumentation of neuronal network models.</p>
 
-<div style="text-align:center">[<img src="https://raw.githubusercontent.com/clinssen/OCNS-2024-NEST-workshop/master/img/nestml-logo.png" border="0" width="240" height="73">](https://nestml.readthedocs.io/)<br>[<span style="font-size:120%; font-weight: 120%">NESTML</span>](https://nestml.readthedocs.io/)</div>
+<div style="text-align:center">[<img src="https://raw.githubusercontent.com/clinssen/NEST-workshop/master/img/nestml-logo.png" border="0" width="240" height="73">](https://nestml.readthedocs.io/)<br>[<span style="font-size:120%; font-weight: 120%">NESTML</span>](https://nestml.readthedocs.io/)</div>
 
 <p>NESTML is a domain-specific modeling language and code-generation toolchain. It supports the specification of neuron models in an intuitive and concise syntax. Optimised code generation for the target simulation platform couples a highly accessible language with good simulation performance.</p>
 
 
 ## Registration
 
-Please don't forget to [register](https://ocns.memberclicks.net/cns-2024-registration) for the on-site meeting in Natal. Registration is required.
+Please don't forget to [register](https://ocns.memberclicks.net/cns-2025-registration) for the on-site meeting in Florence. Registration is required.
 
 Tutorials are not recorded and are not livestreamed events on YouTube. Please note that this is an on-site event only.
 
@@ -198,13 +185,18 @@ To allow for interactive sessions, tutorials will run as “virtual rooms” (i.
 
 ## Software requirements
 
+<!--
+
 We will provide login details for virtual machines running on Jülich Supercomputer Centre infrastructure to registered participants. You will be able to access the required software directly from your browser, without requiring any installation. Access is provided to a NEST Desktop instance, as well as a [JupyterLab](https://jupyterlab.readthedocs.io/) environment that includes NEST Simulator and NESTML.
 
 Please register your account beforehand! See [HPC account registration](hpc_registration.html) for mode details.
+-->
+
+You will be able to access the required software directly from your browser, without requiring any installation via the EBRAINS JupyterLab platform at [https://lab.ebrains.eu/](lab.ebrains.eu/). Please make sure to [create an account](https://www.ebrains.eu/page/sign-up) before the start of the tutorial!
 
 You can also run the software on a local computer. We suggest using two Docker images that we provide:
 
-* [JupyterLab server with NEST and NESTML support](https://github.com/clinssen/OCNS-2024-NEST-workshop/tree/master/docker_containers/nest-nestml-tutorial)
+* [JupyterLab server with NEST and NESTML support](https://github.com/clinssen/NEST-workshop/tree/master/docker_containers/nest-nestml-tutorial)
 
   Launches a Jupyter Notebook server on localhost at port 7003. The password is: **nest25years**
 
@@ -245,7 +237,11 @@ For general inquiries, please contact Charl at <a href="mailto:c.linssen@fz-juel
 
 ## Acknowledgements
 
+<!--
+
 We gratefully acknowledge the use of [Fenix Infrastructure](https://fenix-ri.eu) resources as part of the Human Brain Project, funded from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under Specific Grant Agreements No. 720270, No. 785907 and No. 945539 (Human Brain Project SGA1, SGA2 and SGA3), as well as the resources, expertise and support of the [Jülich Supercomputing Centre (JSC)](https://www.fz-juelich.de/en/ias/jsc) at [Jülich Research Centre, Jülich, Germany](https://fz-juelich.de).
+
+-->
 
 EBRAINS 2.0 has received funding from the European Union's Research and Innovation Program Horizon Europe under Grant Agreement No. 101147319.
 </section>
