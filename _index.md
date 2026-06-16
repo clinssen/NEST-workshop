@@ -19,40 +19,33 @@ title: "From single-cell modeling to large-scale network dynamics with NEST Simu
 <script src="moment.js"></script>
 <script src="moment-timezone-with-data.js"></script>
 
-<p style="margin-top: -1em; text-align: center; font-style: italic !important">An on-site tutorial at the [34th Annual Computational Neuroscience Meeting (CNS*2025)](https://www.cnsorg.org/cns-2025)<br>July 5-9th, 2025</p>
+<p style="margin-top: -1em; text-align: center; font-style: italic !important">An on-site tutorial at the [35th Annual Computational Neuroscience Meeting (CNS*2026)](https://www.cnsorg.org/cns-2026)<br>July 11-15th, 2026</p>
 
 ## Description
 
-<img class="side_img" src="img/nest_desktop_screenshot.png" align="right">NEST is an established, open-source simulator for spiking neuronal networks, which can
-capture a high degree of detail of biological network structures while retaining high
-performance and scalability from laptops to HPC [1]. This tutorial offers a hands-on
-experience in building and simulating neuron, synapse, and network models. It introduces
-several tools and front-ends to implement modeling ideas most effectively. Participants do
-not have to install software as all tools are accessible via the cloud. All parts of the tutorial are hands-on, and take place via Jupyter notebooks.
+<img class="side_img" src="img/nest_desktop_screenshot.png" align="right">
 
-The tutorial consists of four independent parts.
+NEST is an established open-source simulator for spiking neuronal networks that combines detailed biological modeling with high performance and scalability from laptops to HPC systems [1], and has supported hundreds of studies, including a large-scale model of human cortex [2]. In two independent modules, this tutorial highlights NEST's support for compartmental neuron models and advanced synaptic plasticity.
 
-<img class="side_img" src="img/astrocyte.png" align="right">We demonstrate how a tripartite connection can be included in neural simulations. We investigate the calcium dynamics in astrocytes and the effects of slow inward current on neural activity. Different connection rules are explored in order to account for spatial properties of astrocytes.
+% <img class="side_img" src="img/nestml_figure2.png" align="right">A neuron and synapse model are defined in NESTML that are subsequently used in a network to perform learning, prediction and replay of sequences of items, such as letters, images or sounds. The architecture learns sequences in a continuous manner: the network is exposed to repeated presentations of a given ensemble of sequences (e.g., {A,D,B,E} and {F,D,B,C}). At the beginning of the learning process, all presented sequence elements are unanticipated and do not lead to a prediction. As a consequence, the network generates mismatch signals and adjusts its synaptic strengths to minimise the prediction error.
+% 
+% <img class="side_img" src="img/cm_neurons_layers.png" align="right">We investigate how dendritic properties of neurons can be captured by constructing compartmental models in NEST, and using the [NEAT toolbox](https://neatdend.readthedocs.io/en/latest/). NEAT is a python library for the study, simulation and simplification of morphological neuron models. NEAT implements a new and powerful method to simplify morphological neuron models into compartmental models with few compartments.
 
-<img class="side_img" src="img/eprop_supervised_regression_schematic_handwriting.png" align="right">We develop a functional spiking network that can be trained to solve various tasks using an online, bio-inspired learning rule that approximates backpropagation through time: eligibility propagation (e-prop). Specifically, we use e-prop for training a network to solve a supervised classification task in which evidence needs to be accumulated over time, and generate arbitrary temporal patterns in a supervised regression task.
+Compartmental neuron models are a detailed way of describing biological neurons, capturing their spatially extended morphology as systems of coupled ordinary differential equations. We introduce the recently introduced compartmental modeling feature in NEST, starting with model construction in NESTML of biologically motivated multi-compartment neurons with active channels and synaptic inputs [4], and then create interacting networks composed of compartmental neuron populations. By explicitly constructing compartmental trees, participants gain transparent and fine-grained control over model structure. We will build a simple ion channel model in NESTML, and show how it can be compiled, rewritten, and extended, providing a concrete template for user-defined model development.  The tutorial demonstrates dendritic computations emerging from explicitly constructed compartmental neurons and networks, and offers a practical entry point for developing custom compartmental models.
 
-<img class="side_img" src="img/nestml_figure2.png" align="right">A neuron and synapse model are defined in NESTML that are subsequently used in a network to perform learning, prediction and replay of sequences of items, such as letters, images or sounds. The architecture learns sequences in a continuous manner: the network is exposed to repeated presentations of a given ensemble of sequences (e.g., {A,D,B,E} and {F,D,B,C}). At the beginning of the learning process, all presented sequence elements are unanticipated and do not lead to a prediction. As a consequence, the network generates mismatch signals and adjusts its synaptic strengths to minimise the prediction error.
+<img class="side_img" src="img/eprop_supervised_regression_sine-waves.png" align="right"> As an example of advanced plasticity rules in NEST, we present supervised eligibility propagation, an online, biologically inspired learning rule that approximates backpropagation through time [3]. We show how this rule can be used to train functional spiking neural networks to learn a range of tasks, from which we highlight the classification and generation of handwritten characters. The tutorial covers the full research workflow from model construction and simulation to data analysis.
 
-<img class="side_img" src="img/cm_neurons_layers.png" align="right">We investigate how dendritic properties of neurons can be captured by constructing compartmental models in NEST, and using the [NEAT toolbox](https://neatdend.readthedocs.io/en/latest/). NEAT is a python library for the study, simulation and simplification of morphological neuron models. NEAT implements a new and powerful method to simplify morphological neuron models into compartmental models with few compartments.
+Participants can follow the material hands-on and interactively via the EBRAINS cloud services in the browser without local installation, and are encouraged to bring an existing EBRAINS account or create one in advance.
 
 ### Citations
 
 [1] [https://nest-simulator.readthedocs.org/](https://nest-simulator.readthedocs.org/)
 
-[2] [https://nest-desktop.readthedocs.org/](https://nest-desktop.readthedocs.org/)
+[2] [https://github.com/INM-6/microcircuit-PD14-model](https://github.com/INM-6/microcircuit-PD14-model)
 
-[3] [https://nestml.readthedocs.org/](https://nestml.readthedocs.org/)
+[3] [https://nest-simulator.readthedocs.io/en/latest/auto_examples/eprop_plasticity/index.html](https://nest-simulator.readthedocs.io/en/latest/auto_examples/eprop_plasticity/index.html)
 
-[4] Potjans W, Morrison A, Diesmann M (2010). Enabling functional neural circuit
-simulations with distributed computing of neuromodulated plasticity.
-Frontiers in Computational Neuroscience, 4:141. DOI:
-<a href="https://doi.org/10.3389/fncom.2010.00141">https://doi.org/10.3389/fncom.2010.00141</a>
-
+[4] [https://nestml.readthedocs.org/](https://nestml.readthedocs.org/)
 
 ## Schedule (on-site tutorial)
 
@@ -106,7 +99,7 @@ The tutorial will start on <span id="start_date_time">Saturday, July 5th, 09:00<
 <div id="schedule" name="schedule">
 <table>
 <tr>
-<th>Time <noscript>(Florence<br>timezone)</noscript></th>
+<th>Time <noscript>(Halifax<br>timezone)</noscript></th>
 <th>Description</th>
 </tr>
 <tr>
@@ -114,12 +107,8 @@ The tutorial will start on <span id="start_date_time">Saturday, July 5th, 09:00<
 <td>Overview and introduction to NEST Simulator<br><span style="font-style:italic">Agnes Korcsak-Gorzo</span></td>
 </tr>
 <tr>
-<td class="timecell"><noscript>09:10</noscript></td>
+<td class="timecell"><noscript>09:20</noscript></td>
 <td>Pattern generation and classification using eligibility propagation (e-prop)<br><span style="font-style:italic">Agnes Korcsak-Gorzo</span></td>
-</tr>
-<tr>
-<td class="timecell"><noscript>09:40</noscript></td>
-<td>Sequence learning with third-factor plasticity in NESTML<br><span style="font-style:italic">Leander Ewert</span></td>
 </tr>
 <tr>
 <td class="timecell"><noscript>10:10</noscript></td>
@@ -127,14 +116,10 @@ The tutorial will start on <span id="start_date_time">Saturday, July 5th, 09:00<
 </tr>
 <tr>
 <td class="timecell"><noscript>10:40</noscript></td>
-<td>Simulating compartmental models using NEST and NESTML<br><span style="font-style:italic">Leander Ewert</span></td>
+<td>Simulating compartmental models using NEST and NESTML<br><span style="font-style:italic">Noah Ostendorf</span></td>
 </tr>
 <tr>
-<td class="timecell"><noscript>11:25</noscript></td>
-<td>Creating neuron-astrocyte networks<br><span style="font-style:italic">Saana Seppälä</span></td>
-</tr>
-<tr>
-<td class="timecell"><noscript>12:10</noscript></td>
+<td class="timecell"><noscript>12:00</noscript></td>
 <td>Lunch break</td>
 </tr>
 </table>
@@ -171,7 +156,7 @@ For the tutorial notebooks:
 
 ## Registration
 
-Please don't forget to [register](https://ocns.memberclicks.net/cns-2025-registration) for the on-site meeting in Florence. Registration is required.
+Please don't forget to [register](https://ocns.memberclicks.net/cns-2026-registration) for the on-site meeting in Halifax. Registration is required.
 
 Tutorials are not recorded and are not livestreamed events on YouTube. Please note that this is an on-site event only.
 
@@ -228,9 +213,8 @@ If you participated in (any part) of this tutorial, we value your feedback! Plea
 
 ## Organisation
 
-This tutorial is organised by (in alphabetical order):
+This tutorial is organised by Agnes Korcsak-Gorzo, Charl Linssen, and Noah Ostendorf from Jülich Research Centre, Jülich, Germany.
 
-Agnes Korcsak-Gorzo (Jülich Research Centre, Germany), Iiro Ahokainen (Tampere University, Finland), Pooja Babu (Jülich Research Centre, Germany), Leander Ewert (Jülich Research Centre, Germany), Charl Linssen (Jülich Research Centre, Germany), Saana Seppälä (TAU, Finland), Sebastian Spreizer (Jülich Research Centre, Germany) and Willem Wybo (Jülich Research Centre, Germany)
 
 For general inquiries, please contact Charl at <a href="mailto:c.linssen@fz-juelich.de">c.linssen@fz-juelich.de</a>.
 
